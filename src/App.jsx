@@ -1,12 +1,15 @@
-import './App.css'
-import HomePage from "../src/pages/HomePage"
-function App() {
+import "./App.css";
+import HomePage from "../src/pages/HomePage";
+import AppKitProvider from "./config/AppKitProvider";
 
+function App() {
   return (
     <>
-      <HomePage/>
+      <AppKitProvider>
+        <HomePage />
+      </AppKitProvider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
