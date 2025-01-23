@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import CryptoMarquee from "../components/CryptoMarquee";
@@ -17,7 +16,7 @@ const HomePage = () => {
         <ToolsToInvest />
         <CryptoJourney />
         <WhyChooseUs />
-        <Footer/>
+        <Footer />
       </div>
     </>
   );
